@@ -14,8 +14,8 @@ Run `rails test` for Minitest
 ### API
 `localhost:3000/api/ping` - test that it's working, should return a success response json
 
-`localhost:3000/api/posts?tags=__` - grab all the unique 'post' objects from https://api.hatchways.io/assessment/blog/posts
-* (required) `tags=___` - comma-delimited, 1 or more tag associated with posts
+`localhost:3000/api/posts` - grab all the unique 'post' objects from https://api.hatchways.io/assessment/blog/posts
+* (required) `?tags=___` - comma-delimited, 1 or more tag associated with posts
 * (optional) `&sortBy=___` - ['id', 'reads', 'likes', 'popularity'] sorting category
 * (optional) `&direction=___` - ['asc', 'desc'] sorting order
 
